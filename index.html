@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Team Profiles</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body class="m-4 bg-light">
+        <header class="container bg-info pt-4 rounded shadow-lg" style="height: 15vh;">
+            <h1 class="d-flex justify-content-center" style="text-shadow: 2px 2px 3px rgba(83, 78, 78, 0.766);">My Team</h1>
+        </header>
+        <div class="container card rounded shadow-lg mt-1">
+            <div id='main' class="row justify-content-center">
+                <div class="col-sm-3 card rounded m-4 shadow bg-light">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <!-- EMPLOYEE CARDS -->
+                            <h3 id='manager' class="text-center">Manager</h3>
+                            <img src="./assets/images/manager-icon.png" alt="Manager icon representing type of team member">
+                        </div>
+                        <div class="card-body">
+                            <h4 id='manager-name' class="card-title text-center ">Paul</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li id='manager-id' class="list-group-item bg-light">Employee Id: 1</li>
+                            <li id='manager-office' class="list-group-item bg-light">Office #: ut-austin</li>
+                            <li id='manager-email' class="list-group-item  bg-light">Email: <a href="mailto: jamesochukwu@gmail.com" target='_blank' class="text-decoration-none">jamesochukwu@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 card m-4 shadow bg-light">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <!-- EMPLOYEE CARDS -->
+                            <h3 id='engineer' class="text-center">Engineer</h3>
+                            <img class='bg-light' src="./assets/images/engineer-icon.png" alt="Engineer icon representing type of team member">
+                        </div>
+                        <div class="card-body">
+                            <h4 id='engineer-name' class="card-title text-center ">james</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li id='engineer-id' class="list-group-item bg-light">Employee Id: 432 </li>
+                            <li id='engineer-github' class="list-group-item bg-light">GitHub: <a href='https://www.github.com/okingiboy' target='_blank' class="text-decoration-none">okingiboy</a></li>
+                            <li id='engineer-email' class="list-group-item bg-light">Email: <a href="mailto: okoriechukwu@yahoo.com" target='_blank' class="text-decoration-none">okoriechukwu@yahoo.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 card m-4 shadow bg-light">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <!-- EMPLOYEE CARDS -->
+                            <h3 id='intern' class="text-center">bootcamp</h3>
+                            <img src="./assets/images/intern-icon.png" alt="Intern icon representing type of team member">
+                        </div>
+                        <div class="card-body">
+                            <h4 id='intern-name' class="card-title text-center">ajax</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li id='intern-id' class="list-group-item bg-light">Employee Id: 967</li>
+                            <li id='intern-school' class="list-group-item bg-light">School: ut austin</li>
+                            <li id='intern-email' class="list-group-item bg-light">Email: <a href="jamesochukwu@gmail.com" target='_blank' class="text-decoration-none">jamesochukwu@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+        <script src="./src/renderHTML.js"></script>
+        <script src="./src/questions.js"></script>
+    </body>
+</html>
